@@ -52,17 +52,20 @@ studylog_final/
 └── package.json              # 프로젝트 의존성 및 실행 설정
 
 📄 파일별 상세 설명
+
 ✅ App.jsx
 
 // 전체 앱 구조 담당
 - Header, SearchBar, Footer 컴포넌트 조립
 - 태그 리스트 배열로 구성하여 중앙에 렌더링
 - 모든 레이아웃을 flex + gap 조합으로 구성
+
 ✅ main.jsx
 
 // ReactDOM.createRoot()로 App 컴포넌트를 #root에 마운트
 - Vite의 진입점
 - BrowserRouter 사용 안함 (피드백 방지)
+
 ✅ index.css
 
 /* Tailwind base 설정 */
@@ -75,16 +78,17 @@ studylog_final/
 - 현재는 클릭 기능 없는 고정형 헤더
 - 로고 제거 → 불필요한 피드백 방지
 - 추후 확장 시 <a href="/"> 또는 <Link> 삽입 가능
+
 ✅ SearchBar.jsx
 
 - useState를 사용한 키워드 입력 상태 관리
 - onSubmit 시 콘솔에 입력 값 출력 (실제 API 연결 대비용)
 - 검색창 + 버튼 UI를 Tailwind로 구성
+
 ✅ Footer.jsx
 
 - 아래쪽에 “© 2025 STUDYLOG”를 소형 폰트로 고정
 - 배경 없이 텍스트만 표시해 미니멀하게 마무리
-🖼️ 미리보기
 
 🙋 기여자
 
@@ -92,6 +96,7 @@ studylog_final/
 박기영	프론트엔드 개발 / UI 레이아웃 정리 / 마크업 설계
 
 🧾 비고
+
 라우터 미사용: 페이지 전환 기능 없음 (feedback 방지용)
 
 로고 제거: 비벡터 이미지로 인한 이슈 방지
