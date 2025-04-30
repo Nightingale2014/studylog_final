@@ -4,7 +4,7 @@ import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
 
 function App() {
-    const tags = ["태그 1", "태그 2", "태그 3", "태그 4", "태그 5"];
+    const tags = ["토익", "자격증", "공무원 시험", "코딩테스트", "임용고시"];
 
     return (
         <div className="flex flex-col min-h-screen">
